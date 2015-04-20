@@ -1,6 +1,55 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
-
-h1 {
-    color: green;
+header.page-header {
+	border: solid 1px black;
+	background-color: lightcoral;
+	border-radius: 25px;
 }
+header.page-header h1 {
+	margin-bottom: 0;
+}
+header.page-header p {
+	margin-top: 0;
+}
+header.page-header {
+	padding:2rem;
+}
+aside.more-info {
+	border: solid 1px black;
+	border-radius: 25px;
+	background-image:url("images/sand.jpg");
+}
+section {
+	border: solid 1px black;
+	border-radius: 25px;
+	background-image:url("images/sand.jpg");
+}
+aside.more-info img {
+	width: 150px;
+	height: auto;
+}
+body { 
+	font-family:serif;	
+}
+ul.social-links li {
+	display: inline;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+}
+footer.page-footer {
+	border: solid 1px black;
+	border-radius: 25px;
+	background-image:url("images/sand.jpg");
+}
+.poem {
+	list-style-type: none;
+}
+.poem li {
+	font-style: italic;
+	line-height: 1.5;
+}
+.page-header small {
+	font-size: medium;
+}
+
